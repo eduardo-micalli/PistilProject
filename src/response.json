@@ -1,0 +1,60 @@
+{
+    "data": [
+        {
+            "name": "Cali Orange",
+            "type": "Hybrid",
+            "brand": "Decibel Gardens",
+            "category": "flower",
+            "weight": "3.5 grams"
+        },
+        {
+            "name": "Slurricane",
+            "type": "Hybrid",
+            "brand": "Emerald Family Farms",
+            "category": "flower",
+            "weight": "14 grams"
+        },
+        {
+            "name": "Key Lime Pie",
+            "type": "Indica",
+            "brand": "Emerald Family Farms",
+            "category": "preroll",
+            "weight": "1.5 grams"
+        },
+        {
+            "name": "Ice Cream Cake X Lemon Kush",
+            "type": "Hybrid",
+            "brand": "Emerald Family Farms",
+            "category": "preroll",
+            "weight": "1.5 grams"
+        },
+        {
+            "name": "Tangle OG",
+            "type": "Sativa",
+            "brand": "Emerald Family Farms",
+            "category": "flower",
+            "weight": "14 grams"
+        },
+        {
+            "name": "Peyote OG",
+            "type": "Hybrid",
+            "brand": "Emerald Family Farms",
+            "category": "flower",
+            "weight": "14 grams"
+        },
+        {
+            "name": "Blue Box",
+            "type": "Hybrid",
+            "brand": "Los Angeles Kush",
+            "category": "flower",
+            "weight": "3.5 grams"
+        },
+        {
+            "name": "La Kush Cake",
+            "type": "Hybrid",
+            "brand": "Los Angeles Kush",
+            "category": "vape",
+            "weight": "0.5 grams"
+        }
+    ]
+}
