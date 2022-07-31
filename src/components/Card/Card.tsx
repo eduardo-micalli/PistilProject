@@ -1,5 +1,4 @@
 import React from "react";
-import './Card.css';
 import { Cards, CardsDetails, CardsName } from "./style";
 
 interface CardProps {

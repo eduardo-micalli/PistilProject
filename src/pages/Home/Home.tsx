@@ -1,14 +1,14 @@
 import React from 'react'
 import Header from '../../components/Header/Header';
 import List from '../../components/StrainsList/List';
-import './Home.css';
+import { HomeDiv } from './style';
 
 function Home() {
     return (
-        <div className='home'>
+        <HomeDiv>
             <Header />
             <List />
-        </div>
+        </HomeDiv>
     );
 }
 
