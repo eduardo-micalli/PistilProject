@@ -1,13 +1,13 @@
 import React from "react";
-import './Filter.css';
+import { FilterButton, FilterInput } from "./style";
 
 function Filter() {
     return (
-        <div className="filters">
-            <input type='text' placeholder="Filter by strain" />
-            <input type='text' placeholder="Filter by strain type" />
-            <input type='text' placeholder="Filter by brand" />
-            <button>Filter</button>
+        <div>
+            <FilterInput type='text' placeholder="Filter by strain" />
+            <FilterInput type='text' placeholder="Filter by strain type" />
+            <FilterInput type='text' placeholder="Filter by brand" />
+            <FilterButton>Filter</FilterButton>
         </div>
     );
 }

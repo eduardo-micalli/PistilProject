@@ -1,15 +1,15 @@
 import React from "react";
 import Filter from "../Filter/Filter";
-import './Header.css'
+import { HeaderFilters, HeaderMenu, HeaderText } from "./style";
 
 function Header() {
     return (
-        <div className="header">
-            <h2>Pistil Data</h2>
-            <div className="filters">
+        <HeaderMenu>
+            <HeaderText>Pistil Data</HeaderText>
+            <HeaderFilters>
                 <Filter />
-            </div>
-        </div>
+            </HeaderFilters>
+        </HeaderMenu>
     );
 }
 

@@ -1,5 +1,6 @@
 import React from "react";
 import './Card.css';
+import { Cards, CardsDetails, CardsName } from "./style";
 
 interface CardProps {
     name: string;
@@ -9,15 +10,15 @@ interface CardProps {
     weight: string;
 }
 
-function Card(props: CardProps) {
+function Card({ name, type, brand, category, weight }: CardProps) {
     return (
-        <div className="cards">
-            <h3>{props.name}</h3>
-            <h6>Type: {props.type}</h6>
-            <h6>Brand: {props.brand}</h6>
-            <h6>Category: {props.category}</h6>
-            <h6>Weight: {props.weight}</h6>
-        </div>
+        <Cards>
+            <CardsName>{name}</CardsName>
+            <CardsDetails>Type: {type}</CardsDetails>
+            <CardsDetails>Brand: {brand}</CardsDetails>
+            <CardsDetails>Category: {category}</CardsDetails>
+            <CardsDetails>Weight: {weight}</CardsDetails>
+        </Cards>
     );
 }
 
